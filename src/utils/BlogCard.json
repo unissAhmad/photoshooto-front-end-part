@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "img": "https://picsum.photos/200/150",
+        "status": {
+            "type": "PHOTOGRAPHY",
+            "date": "Nov-17-2020",
+            "readtime": "12 min read"
+        },
+        "title": "LoremIpsum",
+        "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry.",
+        "link": "blog",
+        "review": {
+            "like": 100,
+            "comment": 5,
+            "views": 1000
+        }
+    },
+    {
+        "id": 2,
+        "img": "https://picsum.photos/200/150",
+        "status": {
+            "type": "PHOTOGRAPHY",
+            "date": "Nov-17-2020",
+            "readtime": "12 min read"
+        },
+        "title": "LoremIpsum",
+        "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry.",
+        "link": "blog",
+        "review": {
+            "like": 100,
+            "comment": 5,
+            "views": 1000
+        }
+    },
+    {
+        "id": 3,
+        "img": "https://picsum.photos/200/150",
+        "status": {
+            "type": "PHOTOGRAPHY",
+            "date": "Nov-17-2020",
+            "readtime": "12 min read"
+        },
+        "title": "LoremIpsum",
+        "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry.",
+        "link": "blog",
+        "review": {
+            "like": 100,
+            "comment": 5,
+            "views": 1000
+        }
+    },
+    {
+        "id": 4,
+        "img": "https://picsum.photos/200/150",
+        "status": {
+            "type": "PHOTOGRAPHY",
+            "date": "Nov-17-2020",
+            "readtime": "12 min read"
+        },
+        "title": "LoremIpsum",
+        "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry.",
+        "link": "blog",
+        "review": {
+            "like": 100,
+            "comment": 5,
+            "views": 1000
+        }
+    },
+    {
+        "id": 5,
+        "img": "https://picsum.photos/200/150",
+        "status": {
+            "type": "PHOTOGRAPHY",
+            "date": "Nov-17-2020",
+            "readtime": "12 min read"
+        },
+        "title": "LoremIpsum",
+        "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry.",
+        "link": "blog",
+        "review": {
+            "like": 100,
+            "comment": 5,
+            "views": 1000
+        }
+    },
+    {
+        "id": 6,
+        "img": "https://picsum.photos/200/150",
+        "status": {
+            "type": "PHOTOGRAPHY",
+            "date": "Nov-17-2020",
+            "readtime": "12 min read"
+        },
+        "title": "LoremIpsum",
+        "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry.",
+        "link": "blog",
+        "review": {
+            "like": 100,
+            "comment": 5,
+            "views": 1000
+        }
+    }
+]

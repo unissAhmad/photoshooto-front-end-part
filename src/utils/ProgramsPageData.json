@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "dept": "ui-ux-designing",
+    "bannerImg": "https://picsum.photos/200/150",
+    "title": "UI/UX Designing",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "ui-ux-designing-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "30 Aug 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 5,
+        "candidatesApplied": 10
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "tools"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Wireframing"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Prototyping"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "dept": "web-development",
+    "bannerImg": "https://picsum.photos/200/150",
+    "title": "Web Development",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "web-development-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "30 Aug 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "React"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Node"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "MongoDB"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  }
+]

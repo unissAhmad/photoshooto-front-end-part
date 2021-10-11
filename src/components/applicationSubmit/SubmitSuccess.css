@@ -1,0 +1,76 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+.submitBody{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+.submitItem1,.submitItem2{
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.thankyou{
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 27px;
+    line-height: 100%;
+    color: #000000;  
+}
+.submitDescription{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+}
+.submitItem1{
+    padding-bottom: 35px;
+}
+.smallTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 21px;
+    color: #003654;
+    text-align: center;
+}
+.p1,.thankyou,.desc{
+    margin-top: 10px;
+}
+.smallText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 21px;
+    color: #003654;
+    text-align: center;
+}
+.bodyImg{
+    height: 50px;
+    width: 60px;
+}
+.circleTickImg{
+    height: 50px;
+    width: 50px;
+}
+.headImg{
+    width:20px;
+    height:17px;
+    position: absolute;
+    top: 325px;
+    left: 36.433%;
+}

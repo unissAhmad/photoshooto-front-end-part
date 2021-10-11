@@ -1,0 +1,92 @@
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: hsla(201, 100%, 27%, 1);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 1em 0;
+  display: grid;
+  place-items: center;
+}
+.footer p {
+  margin: 0 !important;
+}
+.footerContainer {
+  padding: 40px 0 0 0;
+  background-color: black;
+}
+
+.footerContainer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footerContainer li {
+  padding: 0 10px;
+}
+
+.footerContainer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footerContainer ul a:hover {
+  opacity: 1;
+}
+
+.footerContainer .footerSocial {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.footerContainer .footerList-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footerContainer .footerSocial > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  color: white;
+  background-color: hsla(201, 100%, 27%, 1);
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+.footerContainer .footerSocial > a i {
+  color: #fff;
+}
+
+.footerContainer .footerSocial > a:hover {
+  opacity: 0.9;
+}
+
+.footerheading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyrightsymbol{
+  color: #F5F5F5;
+  margin-right: 7px;
+}
+.footertext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

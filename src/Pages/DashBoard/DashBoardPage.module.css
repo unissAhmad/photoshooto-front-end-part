@@ -1,0 +1,15 @@
+.dashBoard{
+    position: relative;
+    top: 16px;
+}
+.dashboardContainer{
+    display: grid;
+    grid-template-columns: 20% auto;
+    background: #E5E5E5;
+}
+
+@media only screen and (max-width: 700px) {
+    .dashboardContainer{
+        display: block;
+    }
+}

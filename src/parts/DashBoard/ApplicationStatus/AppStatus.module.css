@@ -1,0 +1,65 @@
+.AppStatusContainer{
+    margin: 0 2.7% 0% 2.7%;
+    background: #E5E5E5;
+    font-family: Roboto;
+    font-style: normal;
+    padding-bottom: 1.5%;
+    padding-right: 0.3%;
+    /* box-sizing: border-box; */
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 60px;
+    margin-left: 9px;
+}
+
+.title{
+    font-family: Roboto;
+    line-height: 42px;
+    font-size: 36px;
+    color: #737373;
+    padding: 26px 0 32px 1px;
+}
+
+.line1{
+    border: 3px solid #9A9A9A;
+    width: 70px;
+    
+}
+
+.line2{
+    border: 3px solid #9A9A9A;
+    width: 70px;
+   
+}
+    
+
+.line3{
+    border: 3px solid #9A9A9A;
+    width: 70px;
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    .title{
+        font-size: 3.5rem;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        padding: 60px;
+        margin-left: 0px;
+    }
+}

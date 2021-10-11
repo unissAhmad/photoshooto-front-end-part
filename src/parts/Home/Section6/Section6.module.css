@@ -1,0 +1,110 @@
+.homeSection6Container{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.homeSection6Col{
+  width: 50%;
+  height: 400px;
+  position: relative;
+}
+
+.downloadappheading{
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+}
+
+.downloadapplines{
+  width: 18rem;
+  margin-left: 0.3rem;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+}
+
+.downloadapp{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  width: 288px;
+  height: 66px;
+  background: #000000;
+  border-radius: 3px;
+  margin-left: 0.4rem;
+}
+
+.googleplay{
+  font-weight: bold;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-left: 5px;
+}
+
+.detailview{
+  width: fit-content;
+  width: 19rem;
+}
+
+.downloadlinkbox{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileimage{
+  position: absolute;
+  top: 0;
+  margin-left: 11rem;
+  width: 26rem;
+  height: 100%;
+}
+
+.homeSection6Col::before{
+  content: "";
+  position: absolute;
+  margin-top: 3.4rem;
+  margin-left: 19.5rem;
+  width: 9.4rem;
+  height: 18.8rem;
+  z-index: 10;
+  background: #F2F2F2;
+  border: 1px solid #F0F0F0;
+  box-sizing: border-box;
+  border-radius: 9px;
+}
+
+.logoimageinsidethephone{
+  position: absolute;
+  margin-top: 9rem;
+  margin-left: 19.8rem;
+  width: 8rem;
+  z-index: 11;
+}
+
+.googleplayestoreimage{
+  width: 54px;
+  height: 54px;
+}
+
+@media only screen and (max-width: 700px) {
+  .homeSection6Col::before{
+    margin-left: 9rem;
+  }
+
+  .mobileimage{
+    margin-left: 0rem;
+  }
+
+  .logoimageinsidethephone{
+    margin-left: 9.5rem;
+  }
+
+  .downloadlinkbox{
+    justify-content: space-between;
+  }
+}

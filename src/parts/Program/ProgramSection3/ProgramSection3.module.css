@@ -1,0 +1,99 @@
+.reviews {
+    margin: 4%;
+    font-size: 0.9rem;
+    
+  }
+  
+  .reviews h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #005A8C;
+    
+  margin-bottom: 50px;
+  }
+  
+  .reviewsmini {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .reviewscard {
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+  
+  .reviewer {
+    padding: 0.3rem 1rem;
+    display: flex;
+  }
+  .reviewimage{
+      width: 45px;
+      height: 60px;
+      border-radius: 5px;
+  }
+  .starsinreviewsinprograms{
+    display: flex;
+    margin-left: 5px;
+  }
+ 
+  .reviewer p {
+    align-self: center;
+    margin-left: 0.7rem;
+    font-weight: 900;
+  }
+  
+  .reviewparagraph {
+    padding: 0.3rem 1rem;
+  }
+  .outerofnameandstars{
+    width: 70%;
+  }
+  @media only screen and (max-width: 700px) {
+  .reviews h1 {
+    font-size: 4rem;
+  }
+
+  .reviewsmini {
+   flex-direction: column;
+    align-items: center; 
+  }
+
+  .reviewscard {
+    margin: 0rem 1rem 4rem 1rem;
+    width: 83%;
+    height: 18rem;
+  }
+  .reviewimage{
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .reviewer p {
+    font-size: 3.2rem;
+    margin-top: 1.5rem;
+  }
+  .reviewstarimage{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .reviewtime{
+    font-size: 2rem;
+  }
+  
+  .reviewparagraph p{
+    font-size: 3rem;
+    line-height: 2.7rem;
+  }
+
+  .reviewer {
+    padding: 1.3rem 2rem;
+    display: flex;
+  }
+}

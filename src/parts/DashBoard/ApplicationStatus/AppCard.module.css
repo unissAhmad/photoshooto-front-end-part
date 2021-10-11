@@ -1,0 +1,76 @@
+/* .container1{
+    display: inline-block;
+    /* margin: 60px 95px 110px 60px; */
+
+.internshipCard {
+  width: 160px;
+  height: 195px;
+  text-align: center;
+  background: #f6f6f6;
+  box-shadow: 0px 5px 4px rgba(95, 44, 44, 0.25);
+}
+
+.favicon {
+  width: 50px;
+  height: 76px;
+  padding-left: 60px;
+  padding-top: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.info {
+  width: 90px;
+  height: 40px;
+  padding: 10px 0 0 30px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1f6d99;
+}
+
+.step {
+  padding-top: 17px;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1f6d99;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .internshipCard {
+    width: 132vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12vh;
+  }
+
+  .favicon {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: auto;
+    height: auto;
+  }
+
+  .favicon img{
+      width: 40vw;
+  }
+
+  .step {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+
+  .info {
+    width: 50vw;
+    height: 40px;
+    padding: 0;
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+  }
+}

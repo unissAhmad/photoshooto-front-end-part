@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "img": "https://picsum.photos/200/150",
+    "title": "UI/UX Designing",
+    "info": "Lorem dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "ui-ux-designing"
+  },
+  {
+    "id": 2,
+    "img": "https://picsum.photos/200/150",
+    "title": "Web Development",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "web-development"
+  },
+  {
+    "id": 3,
+    "img": "https://picsum.photos/200/150",
+    "title": "Graphics Designing",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "google.com"
+  },
+  {
+    "id": 4,
+    "img": "https://picsum.photos/200/150",
+    "title": "Video Editor",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "google.com"
+  },
+  {
+    "id": 5,
+    "img": "https://picsum.photos/200/150",
+    "title": "Content Writer",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "google.com"
+  },
+  {
+    "id": 6,
+    "img": "https://picsum.photos/200/150",
+    "title": "HR Generalist",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "google.com"
+  },
+  {
+    "id": 7,
+    "img": "https://picsum.photos/200/150",
+    "title": "Digital Marketer",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "google.com"
+  },
+  {
+    "id": 8,
+    "img": "https://picsum.photos/200/150",
+    "title": "Data Analyst",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "google.com"
+  },
+  {
+    "id": 9,
+    "img": "https://picsum.photos/200/150",
+    "title": "Market Research Analyst",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "google.com"
+  },
+  {
+    "id": 10,
+    "img": "https://picsum.photos/200/150",
+    "title": "Business Development Trainee",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "google.com"
+  },
+  {
+    "id": 11,
+    "img": "https://picsum.photos/200/150",
+    "title": "Finance",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "duration": "2 Months",
+    "link": "google.com"
+  }
+]

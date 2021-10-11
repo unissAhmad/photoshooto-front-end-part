@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.programbar {
+  width: 100%;
+  height: 90px;
+  background-color: #cae4ea;
+}
+.programslideshow {
+  width: 100%;
+  height: 400px;
+  padding: 0;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.programhead {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.titlediv {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.covering {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.programpagedes {
+  width: 20rem;
+  margin: 2rem 0rem;
+}
+.programpagetitle {
+  font-weight: 900;
+}
+.lowerbar {
+  width: 100%;
+  border: 4px solid #f55376;
+  border-radius: 5rem;
+}
+.bannerimage {
+  width: 100vw;
+  height: 400px;
+  z-index: -1;
+  position: absolute;
+}
+
+.applybtn {
+  border-radius: 5rem;
+  background-color: #f55376;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 10px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.applybtn:hover {
+  color: #f55376;
+  background-color: #ffffff;
+}
+@media only screen and (max-width: 700px) {
+  .programpagetitle {
+    font-weight: 900;
+    width: 244vw;
+    font-size: 4rem;
+    margin-left: 152px;
+  }
+  .lowerbar {
+    width: 39%;
+  }
+  .programpagedes {
+    width: 33rem;
+    margin: 2rem 0rem 0 7rem;
+    font-size: 2.8rem;
+    line-height: 2.6rem;
+  }
+
+  .applybtn {
+    position: relative;
+    left: 123%;
+    bottom: 36%;
+    font-size: 3.2rem;
+    height: 30vh;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+  .programpagetitle {
+    font-size: 47px;
+  }
+
+  .applybtn {
+    border-radius: 47px;
+    font-size: 34px;
+  }
+
+  .programpagedes {
+    font-size: 25px;
+  }
+}

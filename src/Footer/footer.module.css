@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.footercontent {
+  margin-top: 1rem;
+  height: 16rem;
+  background-color: rgba(243, 242, 242, 0.86);
+  display: flex;
+}
+
+.left {
+  width: 25rem;
+  border-right: 4px solid rgba(115, 115, 115, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo img {
+  margin-top: 1rem;
+  width: 3.1rem;
+  height: 3.1rem;
+}
+
+.logo div {
+  margin-top: 1.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75rem;
+  line-height: 2.06rem;
+  color: #ef481b;
+}
+
+#line {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.6rem;
+  line-height: 0.75rem;
+  color: #0b537b;
+}
+
+.connect {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.38rem;
+  line-height: 1.62rem;
+  color: #005a8c;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.fab {
+  border: 2px solid #005a8c;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #005a8c;
+  color: white;
+  margin-left: 0.2rem;
+}
+
+.middle {
+  width: 20rem;
+  border-right: 4px solid rgba(115, 115, 115, 0.06);
+  display: flex;
+  flex-direction: column;
+  height: 16rem;
+}
+
+.middle a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.12rem;
+  line-height: 1.3rem;
+  color: #005a8c;
+  margin-bottom: 1rem;
+  margin-left: 6.8rem;
+}
+
+.middle a:first-child {
+  margin-top: 2.3rem;
+}
+
+.right {
+  width: 55rem;
+  margin-top: 1.69rem;
+  display: flex;
+}
+
+.right span {
+  margin-left: 5.2rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.38rem;
+  color: #005a8c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.emailbtn {
+  display: flex;
+}
+
+#email {
+  width: 24rem;
+  height: 3rem;
+  margin: 0.9rem 0 0 3.5rem;
+  background-color: rgba(247, 247, 247, 0.8);
+  box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 0.9rem;
+  border: none;
+  padding-left: 1.87rem;
+}
+
+#email::placeholder {
+  color: #a1a1a1;
+  font-weight: normal;
+  font-size: 1.12rem;
+  line-height: 1.31rem;
+  color: #a2a2a2;
+}
+
+.joinbtn {
+  width: 5.6rem;
+  height: 3rem;
+  background-color: #005a8c;
+  border-radius: 6px;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 1.8rem;
+  font-weight: 500;
+  font-size: 1.12rem;
+  line-height: 1.31rem;
+  color: white;
+}
+
+input[type="checkbox"] {
+  margin: 1.25rem 0.5rem 0 6.87rem;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  top: 5px;
+  width: 1.18rem;
+  height: 1.18rem;
+  border: 1px solid #acacac;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #f2f2f2;
+  background: #f2f2f2 url("Vector\ 4.png") 1px 3px no-repeat;
+}
+
+label {
+  font-weight: normal;
+  font-size: 0.87rem;
+  line-height: 1rem;
+  color: #005a8c;
+}
+
+#tnc {
+  margin-top: 1.25rem;
+  margin-bottom: 0.12rem;
+}
+
+.right img {
+  margin-left: 3rem;
+  width: 11.3rem;
+  height: 11.5rem;
+}
+
+.copyright {
+  height: 3rem;
+  background-color: #005a8c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facopyright {
+  margin-right: 0.5rem;
+  color: #f5f5f5;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.copyright span {
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.43rem;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 700px) {
+  .right span {
+    font-size: 2.6rem;
+    line-height: 3.38rem;
+    margin-left: 5.2rem;
+  }
+
+  .right img {
+    display: none;
+  }
+  #name {
+    font-size: 3.75rem;
+    line-height: 2.06rem;
+  }
+
+  .footercontent {
+    margin-top: 2rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #line {
+    display: none;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .connect {
+    font-size: 2.38rem;
+    line-height: 4.62rem;
+  }
+  .joinbtn {
+    width: 11.6rem;
+    height: 5rem;
+    border-radius: 29px;
+    font-size: 3.12rem;
+    line-height: 1.31rem;
+  }
+  #email {
+    width: 34rem;
+    height: 5rem;
+    border-radius: 2.9rem;
+  }
+
+  input[type="checkbox"] {
+    width: 3.18rem !important;
+    height: 3.18rem;
+  }
+
+  input[type="checkbox"]:checked {
+    background-color: #f2f2f2;
+    background: #f2f2f2 url("Vector\ 4.png") 16px 18px no-repeat;
+  }
+
+  label {
+    font-size: 2.87rem;
+  }
+
+  .icons {
+    width: 295px;
+  }
+
+  .fab {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .fab svg{
+      height: 3.8rem;
+  }
+
+  .copyright {
+      height: 6rem;
+  }
+
+  .copyright span {
+    font-size: 3.25rem;
+  }
+
+  .facopyright{
+    width: 4.2rem;
+    height: 58px;
+  }
+}

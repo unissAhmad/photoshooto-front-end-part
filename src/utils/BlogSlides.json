@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "img": "Rectangle 1.png",
+      "title": "LoremIpsum",
+      "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry."
+    },
+    {
+        "id": 2,
+        "img": "Rectangle 1.png",
+        "title": "LoremIpsum",
+        "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry."
+      },
+      {
+        "id": 3,
+        "img": "Rectangle 1.png",
+        "title": "LoremIpsum",
+        "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry."
+      },
+      {
+        "id": 4,
+        "img": "Rectangle 1.png",
+        "title": "LoremIpsum",
+        "info": "Lorem Ipsum is simply dummy text of the printing and lorem typesetting industry."
+      }
+    
+  ]
+  

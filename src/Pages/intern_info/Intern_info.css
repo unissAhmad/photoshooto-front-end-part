@@ -1,0 +1,73 @@
+#root {
+    margin: 0;
+  }
+  
+  #intern_info_card {
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    /* -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425); */
+    box-shadow: 9px 8px 8px 7px rgba(0, 0, 0, 0.35);
+  
+    border-radius: 22px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+  /* nav {
+    margin-top: -10vw;
+    margin-left: 0vw;
+  } */
+  #star {
+    color: red;
+  }
+  #boxname1001 {
+    font-family: "Roboto";
+    font-size: "18px";
+    font-style: "normal";
+    font-weight: "400";
+    line-height: "21px";
+    letter-spacing: "0em";
+    text-align: "left";
+    color: rgba(0, 0, 0, 1);
+    margin-top: 2vw;
+  }
+  
+  .inputbox1001 {
+    border: 2px solid #cacaca;
+    padding: 0.7vw;
+    background-color: #fff;
+    color: #cacaca;
+    text-decoration-color: #cacaca;
+    margin-top: 0;
+  }
+  
+  .inputbox1001::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #adadad;
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width: 700px) {
+.inputbox1001{
+  width: 100vw !important;
+  height: 15vh;
+  font-size: xx-large;
+}
+  .submit-btn{
+    font-size: xxx-large !important;
+    padding: 2px 7.7vw !important;
+    border-radius: 0.3em !important;
+    margin-top: 47px;
+    margin-left: 58vw;
+  }
+}
+
+
+  @media only screen and (min-width: 700px) and (max-width: 1150px) {
+    #intern_info_card {
+      margin-top: 26px;
+  }
+}
+  

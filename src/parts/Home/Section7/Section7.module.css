@@ -1,0 +1,274 @@
+.doyoulikeinternship {
+  width: auto;
+  display: flex;
+  box-shadow: 0px 2px 16px rgba(196, 196, 196, 0.63);
+  border-radius: 12px;
+  margin: 2rem 1.5rem 3rem 1.2rem;
+  font-family: "Roboto";
+  justify-content: space-between;
+}
+
+.leftdoyoulikeinternship {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.doyoulikeinternshipheading {
+  text-align: center;
+  font-weight: bold;
+  height: 38px;
+  font-size: 32px;
+  color: #005a8c;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.doyoulikeinternshipinfo {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.doyoulikeinternshiptop {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1.3rem;
+}
+
+.doyoulikeinternshipbottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.doyoulikeinternshipdetails {
+  background-color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  width: 23rem;
+  height: 60px;
+  margin-left: 4rem;
+  filter: drop-shadow(1px 3px 6px rgba(0, 0, 0, 0.25));
+}
+
+input.doyoulikeinternshipdetails[type="email"] {
+  margin-left: 1rem;
+}
+
+select.doyoulikeinternshipdetails {
+  margin-left: 1rem;
+}
+
+.doyoulikeinternshipdetails::placeholder {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 24px;
+  color: #a2a2a2;
+}
+
+.doyouinternship {
+  font-weight: normal;
+  font-size: 24px;
+  color: #a2a2a2;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("./img/Untitled.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 2rem;
+  background-position-x: 20rem;
+}
+
+.reservebutton {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 0.5rem 0 1.5rem 0;
+}
+.reserveseatbutton {
+  width: 211px;
+  height: 60px;
+  outline: none;
+  border: none;
+  background: #005a8c;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+  box-shadow: 0px 3px 5px #5a5959;
+}
+
+.rightdoyoulikeinternship {
+  width: 40%;
+  margin: 1rem 0 0 4rem;
+}
+
+.rightdoyoulikeinternshipimage {
+  width: 20rem;
+  height: 17rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .rightdoyoulikeinternshipimage {
+    display: none;
+  }
+
+  .rightdoyoulikeinternship {
+    width: 0%;
+  }
+
+  .doyoulikeinternship {
+    justify-content: center;
+  }
+}
+/* .subscribetonewsletter{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  margin-bottom: 50px;
+}
+.subscribetonewsletterheading{
+  width: 90%;
+  display: flex;
+  padding: 2% 3% 0 3%;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+margin-left: 3.4rem;
+font-size: 24px;
+color: #005A8C;
+}
+
+.subscribetonewsletterdetailscontainer{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.subscribetonewsletterdetails{
+  background: #ECECEC;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  width: 450px;
+  height: 60px;
+  margin-left: 10px;
+}
+.subscribetonewsletterdetails::placeholder{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #A2A2A2;
+}
+.termsandcondition{
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  color: #e71818;
+  background-color: #e71818;
+}
+.termsandcondition:checked{
+  background: #F2F2F2;
+border: 1px solid #ACACAC;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.policy{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+color: #005A8C;
+margin-bottom: 2px;
+}
+
+.main {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #005A8C;
+  margin-bottom: 10px;
+}
+.main input[type=checkbox] {
+  visibility: hidden;
+}
+.geekmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: #F2F2F2;
+border: 1px solid #ACACAC;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.geekmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.main input:checked ~ .geekmark:after {
+  display: block;
+}
+
+.main .geekmark:after {
+  left: 5px;
+  bottom: 5px;
+  width: 12px;
+  height: 20px;
+  border: 2px solid #00DA4A;
+  border-width: 0px 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} */
+
+/* .joinbutton{
+  width: 123px;
+height: 52.71px;
+  background: #005A8C;
+  border-radius: 10px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+border: none;
+color: #FFFFFF;
+} */
+
+
+/* @media screen and (max-width:750px) {
+  .subscribetonewsletterdetailscontainer{
+    flex-direction: column;
+    padding: 10px 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .termsandpolicy{
+    padding-left: 10px;
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+  .subscribetonewsletterjoin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+} */

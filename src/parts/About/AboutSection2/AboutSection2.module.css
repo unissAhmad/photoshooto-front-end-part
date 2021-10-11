@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.whatwe {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.whatwe h1 {
+  color: #005a8c;
+}
+.whatwe p {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px;
+}
+.whatwe h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.row {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.coursecol {
+  flex-basis: 31%;
+
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  color: white;
+  transition: 0.5s;
+  background: #0077b9;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+@media only screen and (max-width: 700px) {
+  .whatwe h1 {
+    margin-top: 35px;
+    font-size: 3.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .whatwe p {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+  .whatwe {
+    margin-top: 42px;
+  }
+
+  .whatwe h1 {
+    font-size: 47px;
+  }
+
+  .whatwe p {
+    font-size: 20px;
+    line-height: 1.4rem;
+  }
+}

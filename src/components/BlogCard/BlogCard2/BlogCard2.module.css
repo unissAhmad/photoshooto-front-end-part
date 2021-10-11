@@ -1,0 +1,105 @@
+.sec {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px 0 10px 10px;
+  margin-top: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec img {
+  width: 48%;
+}
+.con {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+.con h1 {
+  font-size: 20px;
+  color: #005a8c;
+}
+
+.type {
+  list-style: none;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  color: #005a8c;
+  opacity: 0.5;
+}
+.type::before {
+  content: "\2022";
+  color: #550d61;
+  font-weight: bold;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 4px;
+}
+.con p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(55, 54, 54, 0.82);
+  margin-top: 9px;
+  margin-bottom: 0px;
+}
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #005a8c;
+}
+.status {
+  display: flex;
+  flex-direction: row;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  color: #005a8c;
+  opacity: 0.7;
+  margin-top: 11px;
+}
+.readtime::before {
+  content: "\2022";
+  color: #550d61;
+  font-weight: bold;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+  .con h1 {
+    font-size: 2.8rem;
+  }
+
+  .type {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .con p {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .link {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .date {
+    font-size: 2rem;
+  }
+
+  .readtime{
+    font-size: 2rem;
+  }
+}

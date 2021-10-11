@@ -1,0 +1,184 @@
+.internshipprogrampageheadingouter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.internshipprogrampageheading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #005a8c;
+}
+
+.programsCard {
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+  background: #ffffff;
+  box-shadow: 5px 11px 33px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s ease-in-out;
+}
+.programsCard:hover {
+  transform: scale(1.05);
+}
+.programsCard img {
+  width: 80%;
+  margin: 5% 0;
+}
+.programTitle {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+.programInfo {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 5%;
+  padding: 0 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.cardLink {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+  border-top: 2px solid #cacaca;
+}
+.programDuration {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8f8f8f;
+  border-right: 2px solid #cacaca;
+
+  padding: 5% 0;
+}
+.programKnowMore {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.programKnowMore:hover {
+  background-color: #005a8c;
+}
+.programKnowMore:hover > a {
+  color: white;
+}
+.programKnowMore a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: #005a8c;
+}
+
+button.rec-dot {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.allinternshipprogramscard {
+  display: grid;
+  margin-top: 15px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  row-gap: 60px;
+  column-gap: 3%;
+}
+
+@media only screen and (max-width: 700px) {
+  .internshipprogrampageheadingouter {
+    margin-top: 3rem;
+  }
+
+  .internshipprogrampageheading {
+    font-size: 4rem;
+  }
+
+  .allinternshipprogramscard {
+    grid-template-columns: auto;
+    margin-top: 50px;
+  }
+
+  .programsCard {
+    width: 250vw;
+  }
+
+  .programInfo {
+    font-size: 3.5rem;
+  }
+
+  .programDuration {
+    font-size: 2.5rem;
+  }
+
+  .programKnowMore a {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  .internshipprogrampageheading {
+    font-size: 47px;
+    padding-top: 20px;
+  }
+
+  .allinternshipprogramscard {
+    grid-template-columns: auto auto;
+  }
+
+  .programsCard {
+    width: 60vw;
+  }
+
+  .programInfo {
+    font-size: 30px;
+  }
+
+  .programDuration {
+    font-size: 22px;
+  }
+
+  .programKnowMore a {
+    font-size: 22px;
+  }
+
+  /* .programsCard{
+      width: 250px;
+    } */
+}
+
+/* @media screen and (max-width:880px) {
+    .allinternshipprogramscard{
+      grid-template-columns: auto auto;
+      
+    }
+  } */

@@ -1,0 +1,9 @@
+.contactPageContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 114px 0 0 307px; */
+  overflow: auto;
+}

@@ -1,0 +1,36 @@
+.homeBlogsContainer {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(238, 238, 238);
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin: 1.5rem;
+  margin-top: 3rem;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  /* color: #ffffff; */
+} 
+.subHeading {
+  width: 30rem;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 1rem;
+} 
+.blogsCardContainer {
+  /* background: lightgrey; */
+  width: 100%;
+  padding: 5px 0px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}

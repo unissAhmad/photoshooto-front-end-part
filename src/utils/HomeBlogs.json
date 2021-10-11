@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "img": "https://picsum.photos/200/150",
+    "title": "Blog 1",
+    "info": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. ",
+    "link": "google.com"
+  },
+  {
+    "id": 2,
+    "img": "https://picsum.photos/200/150",
+    "title": "Blog 2",
+    "info": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. ",
+    "link": "google.com"
+  },
+  {
+    "id": 3,
+    "img": "https://picsum.photos/200/150",
+    "title": "Blog 3",
+    "info": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. ",
+    "link": "google.com"
+  },
+  {
+    "id": 4,
+    "img": "https://picsum.photos/200/150",
+    "title": "Blog 4",
+    "info": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. ",
+    "link": "google.com"
+  },
+  {
+    "id": 5,
+    "img": "https://picsum.photos/200/150",
+    "title": "Blog 5",
+    "info": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. ",
+    "link": "google.com"
+  }
+]

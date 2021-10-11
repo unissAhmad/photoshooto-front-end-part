@@ -1,0 +1,25 @@
+.BlogTagContainer{
+    margin: 22px 19px 0px 23px;
+    /* border: 2px solid black; */
+    background: rgba(210, 204, 220, 0.2);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 51px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+.tag{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 90, 140, 0.88);
+    width: max-content;
+}
+
+@media only screen and (max-width: 700px) {
+    .tag{
+        font-size: 1.7rem;
+    }
+}

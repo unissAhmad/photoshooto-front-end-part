@@ -1,0 +1,202 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  width: 45%;
+  height: 24%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 28px;
+  margin-bottom: 36px;
+}
+
+.image {
+  /* margin:16px 13px 0px 14px; */
+  width: 90%;
+  padding-top: 4%;
+  margin: auto;
+}
+.image img {
+  /* width:329px;
+    height:190px;
+     */
+  width: 100%;
+}
+
+.status {
+  margin-top: 16px;
+  margin-left: 19px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #005a8ce0;
+  display: flex;
+  line-height: 14.06px;
+}
+li {
+  list-style: none;
+}
+.type::before {
+  content: "\2022";
+  color: #550d61;
+  font-weight: bold;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 4px;
+}
+.type {
+  width: 50%;
+}
+.readtime::before {
+  content: "\2022";
+  color: #550d61;
+  font-weight: bold;
+  display: inline-block;
+  /* width: 5px; */
+  height: 5px;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+
+.totalcontent {
+  margin: 15px 19px 0px 19px;
+}
+.heading {
+  color: #005a8c;
+  font-size: 24px;
+  line-height: 28.13px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.content {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.content a {
+  color: #005a8c;
+  line-height: 21.04px;
+}
+.data {
+  margin: 13px 40px 5px 31px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .like{
+    margin-right: 109px;
+}
+.comment{
+    margin-right: 109px;
+} */
+.text {
+  margin-top: 7px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 100%;
+  }
+
+  .status {
+    margin: 2rem 3rem 0 3rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .type::before {
+    content: "\2022";
+    width: 5px;
+    height: 5px;
+    margin-right: 1rem;
+  }
+
+  .type {
+    /* width: 41%; */
+    font-size: 2.2rem;
+    line-height: 2.2rem;   
+  }
+  .date {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+  .readtime {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+
+  .totalcontent {
+    margin: 4rem 5rem 0 6rem;
+  }
+
+  .heading {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+  .content {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+
+  .data {
+    margin: 4rem 8rem 2rem 8rem;
+  }
+
+  .like img{
+    width: 50px;
+  }
+
+  .comment img{
+      width: 50px;
+  }
+
+  .view img{
+      width: 50px;
+      
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1150px) {
+  .card {
+    width: 90%;
+    margin-right: 0px;
+  }
+
+  .status {
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .type::before {
+    content: "\2022";
+    width: 10px;
+    height: 10px;
+  }
+
+  .type {
+    font-size: 1.2rem;
+    line-height: 1.2rem;   
+  }
+
+  .date {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  .readtime {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  .totalcontent {
+    margin-left: 2rem;
+  }
+
+  .data {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}

@@ -1,0 +1,264 @@
+.myContainer {
+  margin: 0 2.7% 0% 2.7%;
+  background: #e5e5e5;
+  font-family: Roboto;
+  font-style: normal;
+  padding-bottom: 1.5%;
+  padding-right: 0.3%;
+  box-sizing: border-box;
+}
+.temp {
+  height: 88px;
+  background: white;
+}
+.heading1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #737373;
+  margin: 0;
+  padding: 37px 0 32px 1px;
+}
+.info {
+  display: grid;
+  grid-template-rows: 345px 480px 145px 145px 145px;
+  grid-row-gap: 20px;
+  margin-left: 9px;
+}
+.section {
+  background: #ffffff;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.summary {
+  background: #e5e5e5;
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-column-gap: 2%;
+}
+.pic {
+  background: #ffffff;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  /* display: flex; */
+  position: relative;
+}
+.report {
+  background: #ffffff;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.profilepic {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 65%;
+  /* border: 1px solid black; */
+  height: 67%;
+}
+.profilepic img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.camera {
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 85%;
+  left: 61%;
+  right: 0;
+  bottom: 0;
+  height: 23%;
+  width: 25%;
+  background: #ffffff;
+  padding: 8px;
+}
+.heading2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #a8a8a8;
+  margin-top: 23px;
+  margin-left: 25px;
+  text-align: start;
+}
+.detail {
+  margin-left: 38.5px;
+  text-align: start;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #6a6a6a;
+}
+.detail p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #6a6a6a;
+}
+.btn {
+  width: 80%;
+  background: #1f6e99;
+  border-radius: 5px;
+  min-height: 33px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-right: 34px;
+  border-width: 0;
+}
+.report {
+  display: flex;
+  align-items: center;
+}
+.chart {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #939393;
+}
+.data {
+  align-self: flex-start;
+}
+.data h4 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 11px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.data span {
+  font-size: 18px;
+  line-height: 14px;
+  color: #857171;
+}
+.data h6 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #939393;
+  margin-top: 4px;
+}
+.per {
+  width: 150px;
+  height: 150px;
+}
+.bullet1 {
+  width: 16px;
+  height: 10px;
+  background: #7000ff;
+  margin-right: 7px;
+}
+.bullet2 {
+  width: 16px;
+  height: 10px;
+  background: #ff9e58;
+  margin-right: 7px;
+}
+.data div {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .chart {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .data div {
+    align-items: center;
+  }
+  .bullet1 {
+    width: 7vw;
+    height: 5vh;
+  }
+  .bullet2 {
+    width: 7vw;
+    height: 5vh;
+  }
+
+  li {
+    list-style: none;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 2.8rem;
+    color: #939393;
+  }
+
+  .data h4 {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+
+  .data span {
+    font-size: 3rem;
+    line-height: 2rem;
+    color: #857171;
+  }
+
+  .data h6 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: #939393;
+    margin-top: 4px;
+  }
+
+  svg {
+    height: 9.8rem;
+  }
+
+  .report {
+    padding: 0 20px;
+  }
+
+  .heading2 {
+    font-size: 3.5rem;
+  }
+
+  .detail p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.8rem;
+    color: #6a6a6a;
+  }
+  .btn {
+    width: 84%;
+    background: #1f6e99;
+    border-radius: 5px;
+    min-height: 13vh;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-right: 34px;
+    border-width: 0;
+  }
+}

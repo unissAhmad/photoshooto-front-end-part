@@ -1,0 +1,18 @@
+.rec.rec-arrow{
+    background: rgba(210, 204, 220, 0.2);
+    box-shadow: 0 0 0 0;
+    border-radius: 0px;
+    color:#482E92;
+    opacity: 0.7;
+    font-weight: bolder;
+}
+.rec.rec-arrow:hover {
+    background-color: rgba(210, 204, 220, 0.2)!important;
+    color:#482E92 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+.rec.rec-item-wrapper{
+    width: max-content !important;
+    margin-left: 20px;
+    margin-right: 30px;
+}

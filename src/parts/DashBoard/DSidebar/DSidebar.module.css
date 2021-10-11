@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+.sideContainer{
+    height: 87%;
+}
+.rectangle{
+    position:sticky;
+    top: 10px;
+    margin: 2.4rem 0 0 0rem;
+    /* border: red solid 2px; */
+    width: 17.5rem;
+    height: 32rem;
+    left: 0px;
+    background: #0E517B;
+    border-radius: 0px 20px 20px 0px;
+    list-style-type:none;
+    padding-top: 0.2rem;
+}
+
+.active{
+    position: absolute;
+    width: 4px;
+    height: 66px;
+    /* left: 36px; */
+    top: 152px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.linkcontent a{
+    width: auto;
+    max-width: auto; 
+    height: 1.6rem;
+    margin: 3rem 0 4.2rem -2.2rem;
+    font-family: 'Comfortaa';
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #FFFFFF !important;
+    text-decoration: none ;
+    cursor: pointer;
+}
+.linkcontent a:active{
+    font-weight: bold;
+    background-color: red;
+}
+.linkcontent{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .sideContainer{
+        display: none;
+    }
+}

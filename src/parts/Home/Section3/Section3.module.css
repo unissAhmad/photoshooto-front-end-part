@@ -1,0 +1,65 @@
+.homeProgramsContainer {
+  margin: 10px 0;
+  width: 100%;
+  background: #005a8c;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* position: relative;
+  z-index: 1; */
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.subHeading {
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+} 
+.programsCardContainer {
+  /* background: lightgrey;  */
+  width: 100%;
+  padding: 5px 20px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+
+.rec-arrow{
+  background-color: yellow;
+}
+button.rec-dot {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.5);
+} 
+
+/* ////////// */
+/* 
+.aa {
+  background: red;    //
+  position: absolute;
+  fill: red;
+  z-index: -1;
+}
+.bb {
+  background: red;    //
+  position: absolute;
+}
+.cc {
+  position: absolute;   //
+  background: red;    //
+  fill: red;
+} */
