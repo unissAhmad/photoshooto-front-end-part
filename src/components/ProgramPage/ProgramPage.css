@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,13 +8,8 @@
   width: 100%;
   height: auto;
 }
-.navbar-background {
-  width: 100%;
-  height: 5rem;
-  background-color: #b1d9e386;
-}
-
-/* -------------First section containing Title and the specific image-------------------*/
+@media (min-width: 200px) and (max-width: 400px) { 
+  /* -------------First section containing Title and the specific image-------------------*/
 .program-head {
   display: flex;
   /* justify-content: space-between; */
@@ -32,6 +28,64 @@
 .program-image {
   width: 55%;
   background-image: url("../../assets/images/img/UI.png");
+  background-size: 100% 100%;
+}
+
+.title-div h2 {
+
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.title-div p {
+  width: 35
+   rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 200;
+  color: #ffff;
+  margin: 1rem 0 2rem 6rem;
+}
+
+.lower-bar {
+  width: 14rem;
+  border: 4px solid #f55376;
+  border-radius: 5rem;
+}
+
+.apply-btn {
+  width: 5rem;
+    border-radius: 3rem;
+    background-color: #f55376;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+}
+/* -------------First section containing Title and the specific image-------------------*/
+.program-head {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  height: 25rem;
+  background-color: #004594f1;
+}
+.title-div {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.program-image {
+  width: 55%;
+  /* background-image: url("../../assets/images/img/UI.png"); */
   background-size: 100% 100%;
 }
 
@@ -59,7 +113,7 @@
   justify-content: center;
   align-items: center;
   font-weight: 900;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
@@ -574,7 +628,9 @@
 }
 
 .reviewer h3 {
+  align-self: center;
   margin-left: 0.7rem;
+  font-weight: 900;
 }
 .reviewername {
   font-family: Roboto;
@@ -741,7 +797,7 @@
   .value-div {
     width: 210vw;
     margin-bottom: 27vh;
-    height: auto;
+    height: 37rem;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -755,100 +811,11 @@
     position: initial;
     width: 70%;
     height: auto;
-    margin-top: 41px;
-    margin-bottom: 41px;
   }
 
   .value-div h5 {
     position: initial;
     color: white;
     font-size: 3rem;
-  }
-  .certificate h1 {
-    font-size: 3.6rem;
-  }
-
-  .certificate-mini {
-    flex-direction: column;
-    align-items: center;
-  }
-  .certificate-left {
-    width: 90%;
-  }
-  .certificate-left p {
-    font-size: 2.7rem;
-    line-height: 2.6rem;
-  }
-
-  .certificate-right {
-    text-align: center;
-  }
-
-  .certificate-right img {
-    width: 263vw;
-    margin-top: 54px;
-  }
-  .reviews h1 {
-    font-size: 4rem;
-  }
-
-  .reviewsmini {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .reviewscard {
-    margin: 0rem 1rem 4rem 1rem;
-    width: 83%;
-    height: 18rem;
-  }
-  .reviewimage {
-    width: 6.5rem;
-    height: 6.5rem;
-  }
-
-  .reviews {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .outerofnameandstars {
-    width: 53%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .apply-now-btn {
-    width: 17rem;
-    font-size: 3.5rem;
-  }
-
-  .reviewer h3 {
-    font-size: 3rem;
-  }
-
-  .reviewer p {
-    font-size: 3.2rem;
-    margin-top: 1.5rem;
-  }
-  .reviewstarimage {
-    width: 3rem;
-    height: 3rem;
-  }
-
-  .reviewtime {
-    font-size: 2rem;
-  }
-
-  .reviewparagraph p {
-    font-size: 3rem;
-    line-height: 2.7rem;
-  }
-
-  .reviewer {
-    padding: 1.3rem 2rem;
-    display: flex;
   }
 }

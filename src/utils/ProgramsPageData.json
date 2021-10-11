@@ -2,7 +2,7 @@
   {
     "id": 1,
     "dept": "ui-ux-designing",
-    "bannerImg": "https://picsum.photos/200/150",
+    "bannerImg": "https://i.ibb.co/fXQpvtP/uiux.png",
     "title": "UI/UX Designing",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "applyLink": "ui-ux-designing-form",
@@ -10,7 +10,8 @@
     "colors": {
       "navColor": "#f008",
       "primaryColor": "#0f08",
-      "secondaryColor": "#00f8"
+      "secondaryColor": "#00f8",
+"backgroundColor":"#005A8C"
     },
 
     "workFromHome": {
@@ -91,15 +92,16 @@
   {
     "id": 2,
     "dept": "web-development",
-    "bannerImg": "https://picsum.photos/200/150",
+    "bannerImg": "https://i.ibb.co/HzjcXP0/web-developer.png",
     "title": "Web Development",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "applyLink": "web-development-form",
 
     "colors": {
-      "navColor": "#f008",
+      "navColor": "#0f08",
       "primaryColor": "#0f08",
-      "secondaryColor": "#00f8"
+      "secondaryColor": "#00f8",
+"backgroundColor":"#FC8B79"
     },
 
     "workFromHome": {
@@ -129,6 +131,816 @@
       {
         "image": "https://picsum.photos/200/150",
         "title": "MongoDB"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "dept": "graphics-designing",
+    "bannerImg": "https://i.ibb.co/9HK7GQL/graphics-designing.png",
+    "title": "Graphics Designing",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "graphics-designing-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8",
+"backgroundColor":"#1D5C68"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "09 Oct 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Typography"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Fundamentals of Color theory"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Principles of Animation"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "dept": "video-editor",
+    "bannerImg": "https://i.ibb.co/Hqh2Tbr/video-editing.png",
+    "title": "Video Editor",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "video-editor-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8",
+"backgroundColor":"#0084BC"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "09 Oct 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Essential Training"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Video Dialogue Editing"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Video Color Correction"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "dept": "content-writer",
+    "bannerImg": "https://i.ibb.co/G25p3KJ/content-writer.png",
+    "title": "Content Writer",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "content-writer-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8",
+"backgroundColor":"#8B30A2"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "09 Oct 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Adaptability"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Originality"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Search engine optimization (SEO)"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "dept": "hr-generalist",
+    "bannerImg": "https://i.ibb.co/XLyv6Wy/hr-generalist.png",
+    "title": "HR Generalist",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "hr-generalist-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8",
+"backgroundColor":"#49C5C5"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "09 Oct 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Communication skills"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "HRM knowledge and expertise"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "HR reporting skills"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "dept": "digital-marketer",
+    "bannerImg": "https://i.ibb.co/1QyyVM7/digital-marketing.png",
+    "title": "Digital Marketer",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "intern_info",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8",
+"backgroundColor":"#BE5CA3"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "09 Oct 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Data Analysis"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "SEO & SEM"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "CRM"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "dept": "data-analyst",
+    "bannerImg": "https://i.ibb.co/XXhDykZ/data-analyst.png",
+    "title": "Data Analyst",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "data-analyst-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8",
+"backgroundColor":"#047c6c"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "09 Oct 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Data Visualization"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Data Cleaning"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "MATLAB"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "dept": "market-research-analyst",
+    "bannerImg": "https://i.ibb.co/X8t3FK9/market-research.png",
+    "title": "Market Research Analyst",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "market-research-analyst-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8",
+"backgroundColor":"#3399C5"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "09 Oct 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Research and Information Analysis"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Exceptional Communication Skills"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Critical Thinking Abilities"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "dept": "business-development-trainee",
+    "bannerImg": "https://picsum.photos/200/150",
+    "title": "Business Development Trainee",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "business-development-trainee-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8",
+"backgroundColor":"#FC8B79"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "09 Oct 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Experience in Sales"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Marketing"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Business Management"
+      }
+    ],
+
+    "valuesYouGet": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Team Work"
+      }
+    ],
+
+    "certificateImg": "https://picsum.photos/200/150",
+
+    "reviews": [
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "star": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "jane doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 4,
+        "date": "aug 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      },
+      {
+        "name": "john doe",
+        "img": "https://source.unsplash.com/random/200x200?person",
+        "start": 5,
+        "date": "sept 21",
+        "message": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "dept": "finance",
+    "bannerImg": "https://i.ibb.co/y875zsk/finance.png",
+    "title": "Finance",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
+    "applyLink": "finance-form",
+
+    "colors": {
+      "navColor": "#f008",
+      "primaryColor": "#0f08",
+      "secondaryColor": "#00f8",
+"backgroundColor":"#005A8C"
+    },
+
+    "workFromHome": {
+      "startDate": "Immediately",
+      "duration": "2-4 months",
+      "stipend": "No stipend",
+      "applyBy": "09 Oct 21"
+    },
+
+    "aboutInternship": {
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "status": {
+        "noOfOpenings": 20,
+        "candidatesApplied": 50
+      }
+    },
+
+    "skillsRequired": [
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": " Strategic thinking"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": "Great Presentation Skills"
+      },
+      {
+        "image": "https://picsum.photos/200/150",
+        "title": " Ability to Influence and Persuade"
       }
     ],
 

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/fXQpvtP/uiux.png",
     "title": "UI/UX Designing",
     "info": "Lorem dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/HzjcXP0/web-developer.png",
     "title": "Web Development",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
@@ -17,59 +17,59 @@
   },
   {
     "id": 3,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/9HK7GQL/graphics-designing.png",
     "title": "Graphics Designing",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
-    "link": "google.com"
+    "link": "graphics-designing"
   },
   {
     "id": 4,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/Hqh2Tbr/video-editing.png",
     "title": "Video Editor",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
-    "link": "google.com"
+    "link": "video-editor"
   },
   {
     "id": 5,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/G25p3KJ/content-writer.png",
     "title": "Content Writer",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
-    "link": "google.com"
+    "link": "content-writer"
   },
   {
     "id": 6,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/XLyv6Wy/hr-generalist.png",
     "title": "HR Generalist",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
-    "link": "google.com"
+    "link": "hr-generalist"
   },
   {
     "id": 7,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/1QyyVM7/digital-marketing.png",
     "title": "Digital Marketer",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
-    "link": "google.com"
+    "link": "digital-marketer"
   },
   {
     "id": 8,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/XXhDykZ/data-analyst.png",
     "title": "Data Analyst",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
-    "link": "google.com"
+    "link": "data-analyst"
   },
   {
     "id": 9,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/X8t3FK9/market-research.png",
     "title": "Market Research Analyst",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
-    "link": "google.com"
+    "link": "market-research-analyst"
   },
   {
     "id": 10,
@@ -77,14 +77,14 @@
     "title": "Business Development Trainee",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
-    "link": "google.com"
+    "link": "business-development-trainee"
   },
   {
     "id": 11,
-    "img": "https://picsum.photos/200/150",
+    "img": "https://i.ibb.co/y875zsk/finance.png",
     "title": "Finance",
     "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, dolorem?",
     "duration": "2 Months",
-    "link": "google.com"
+    "link": "finance"
   }
 ]
